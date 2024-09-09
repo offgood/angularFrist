@@ -1,0 +1,13 @@
+.button {
+  background-color: aqua;
+  cursor: pointer;
+  width: max-content;
+  width: -moz-max-content;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+}
+.button:hover {
+  background-color: aquamarine;
+}
