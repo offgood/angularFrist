@@ -14,7 +14,7 @@ export const routes: Routes = [
     component: Page1Component,
   },
   {
-    path: 'item1',
+    path: 'item1/:id', //set to use send data url param
     component: Page2Component,
   },
 ];

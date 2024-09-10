@@ -11,4 +11,5 @@ import { RouterLink } from '@angular/router';
 })
 export class HeaderComponent {
   menu: string[] = ['Home', 'Item1', 'Item2', 'Item3', 'Item4']; // ready to use in html inline ng is not set var const ...
+  dataToPass = 'example-data'; // Data you want to pass
 }
