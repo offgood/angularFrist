@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header', // tag use in html file in exit file to import this
   standalone: true, // unkown
-  imports: [CommonModule], // is short import function import other component use in this components
+  imports: [CommonModule, RouterLink], // is short import function import other component use in this components
   templateUrl: './header.component.html', // ui in componet
   styleUrl: './header.component.scss', // style use in component
 })

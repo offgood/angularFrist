@@ -3,9 +3,9 @@
     class="content flex items-center py-2 px-2 cursor-pointer text-[#674636] hover:text-[#8F614A]"
     *ngFor="let item of menu"
   >
-    <div class="w-full h-full">
+    <div class="w-full h-full" [routerLink]="item.toLowerCase()">
+      <!--routerLink is add in ts file import use import { RouterLink } from '@angular/router';-->
       {{ item }}
     </div>
-    <!-- ngFor is For loop in ts parameter -->
   </div>
 </nav>
